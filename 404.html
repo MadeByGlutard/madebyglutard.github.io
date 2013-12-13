@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Not Found :(</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <style>
+        html {
+            background: #f0f0f0;
+            color: #848484;
+            font-size: 100%;
+            font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+            font-weight: 200;
+            text-align: center;
+        }
+
+        body {
+            box-sizing: border-box;
+            margin: 2em auto;
+            padding:  2em 4em;
+            width: 80%;
+            max-width: 30em;
+            background: #fefefe;
+            border: 1px solid #a0a0a0;
+            border-radius: 0.25em;
+            box-shadow: 0 0 1em #a0a0a0, inset 0 0 3em #f0f0f0;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #626262;
+        }
+        h1:after {
+            content: ':(';
+            display: inline-block;
+            margin-left: 0.5em;
+            color: #a0a0a0;
+            -webkit-transform: rotate(90deg);
+               -moz-transform: rotate(90deg);
+                    transform: rotate(90deg);
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+
+        a {
+            color: #428bca;
+            text-decoration: none;
+        }
+        a:hover,
+        a:focus {
+            color: #5cb85c;
+            border-bottom: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Not Found</h1>
+    <p>The page you were looking for could not be found.</p>
+    <a href="" onclick="history.go(-1);return false;">&larr; Go Back</a>
+</body>
+</html>
